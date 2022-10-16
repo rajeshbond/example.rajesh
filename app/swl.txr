@@ -1,0 +1,11 @@
+- SELECT * FROM products ORDER BY price DESC;
+-- SELECT * FROM products ORDER BY inventory ASC ;
+-- SELECT * FROM products ORDER BY inventory DESC, price;
+-- SELECT * FROM products ORDER BY created_at DESC;
+-- SELECT * FROM products WHERE price > 5000 ORDER BY created_at DESC
+-- SELECT * FROM products LIMIT 2
+-- SELECT * FROM products ORDER BY created_at DESC LIMIT 5;
+-- SELECT * FROM products ORDER BY id LIMIT 5;
+-- SELECT * FROM products ORDER BY id LIMIT 5 OFFSET 2;
+-- INSERT COMMAND 
+INSERT INTO products (name , price , inventory) VALUES('Cell Phone', 15980 , 250)
